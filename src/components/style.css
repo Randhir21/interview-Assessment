@@ -1,0 +1,857 @@
+.assideBar {
+    width: 10vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 30px; */
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18px;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.item1 {
+    border-top: 2px dotted #b3cbe1;
+    width: 70%;
+    margin: 10px 0px;
+}
+
+.adminCon {
+    padding: 0px 8px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid #D63500;
+    background-color: #FBEBEA;
+
+}
+
+.activeMenu {
+    border: 2px solid #1C4980;
+    background-color: #E5F1FC;
+}
+
+.iconColor {
+    color: #1C4980;
+
+}
+
+.menuCont {
+    color: #1C4980;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+/* Css Form MainCom */
+.mainComp {
+    width: 87vw;
+    height: 98vh;
+    border-radius: 15px !important;
+    margin-left: 15px;
+
+}
+
+.headerItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 12px 12px 0px 0px;
+    border: 0px 0px 1px 0px;
+    gap: 24px;
+    border-bottom: 1px solid #DDE5EA;
+}
+
+.devider {
+    height: 46px;
+    border: 1px solid #DADCE0;
+}
+
+.leftItem {
+    display: flex;
+    width: 286px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+
+.my_assess {
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #0073E6;
+}
+
+.headertext {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1C4980;
+    /* font-family: Inter; */
+
+}
+
+.headertext1 {
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0073E6;
+
+}
+
+.mainArea {
+    width: 1224px;
+    padding: 0px 20px;
+}
+
+.mainareaTest {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1C4980;
+}
+
+.assessDetails {
+    height: auto;
+    border: 1px solid #DADCE0;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details_item1 {
+    height: 114px;
+    width: 162px;
+    border-right: 1px solid #DADCE0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.details_item2 {
+    height: 114px;
+    width: 369px;
+    border-right: 1px solid #DADCE0;
+    display: flex;
+    flex-direction: column;
+}
+
+.details_item3 {
+    height: 114px;
+    width: 499px;
+    border-right: 1px solid #DADCE0;
+    display: flex;
+    flex-direction: column;
+}
+
+.details_item4 {
+    height: 114px;
+    width: 188px;
+    display: flex;
+    flex-direction: column;
+    /* border-right: 1px solid #DADCE0;   */
+}
+
+.details_Title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 15px;
+    color: #1C4980;
+
+}
+
+.details_value_Box {
+    display: flex;
+    align-items: center;
+}
+
+.details_value {
+    display: flex;
+}
+
+.details_value1 {
+    margin-left: 20px;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0px !important;
+    color: #1C4980;
+
+}
+
+.value span {
+    color: #05C165;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.value_title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0px !important;
+    color: #1C4980;
+
+}
+
+.details_icon_box {
+    width: 40px;
+    height: 40px;
+    /* padding: 10px; */
+    border-radius: 8px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBE8FD;
+}
+
+.details_icon {
+    width: 20px;
+    height: 20px;
+    color: #6548EE;
+}
+
+.mainAreaBody {
+    width: 1, 224px;
+    padding: 0px 20px;
+}
+
+.cardArea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1, 224px;
+    gap: 20px;
+    /* border: 1px solid #000; */
+}
+
+.cardItem1 {
+    width: 355px;
+    height: 209px;
+    border-radius: 12px;
+    border: 2px dotted #DADCE0 !important;
+    background-color: #F6F8FA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cardItem2 {
+    width: 355px;
+    height: 209px;
+    border-radius: 12px;
+    border: 2px solid #DADCE0 !important;
+    /* background-color: #F6F8FA; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+
+.cardTitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1C4980;
+    margin: 10px 0 !important;
+}
+
+.cardDesc {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1C4980;
+}
+
+.cardAddIcon {
+    width: 70px !important;
+    height: 70px !important;
+    padding: 10px;
+    border-radius: 72px;
+    color: #0073E6;
+    background-color: #fff;
+}
+
+.devider2 {
+    height: 16px;
+    border: 1px solid #DADCE0;
+    margin: 0 10px;
+
+}
+
+.dateIcon {
+    height: 14px !important;
+    width: 14px !important;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8DA4BF;
+    margin-left: 5px;
+
+}
+
+.job {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1C4980;
+    margin: 0;
+
+}
+
+.cardTitle2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #1C4980;
+    margin: 5px 0 !important;
+}
+
+.cardIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #EBE8FD;
+    color: #6548EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cardTopArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.devider3 {
+    border: 1px dotted #DADCE0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cardBottmArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.left p {
+    color: #1C4980;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 3px 0 0 0;
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.shareBTN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 70px;
+    height: 30px;
+    padding: 2px 8px 2px 6px;
+    border-radius: 50px;
+    border: 1px solid #0073E6;
+    color: #1C4980;
+}
+
+.shareBTN p {
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.LPBox {
+    width: 23px;
+    height: 23px;
+    padding: 5px 6px 5px 6px;
+    border-radius: 32px;
+    background-color: #6548EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.LPBox1 {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    background-color: #3079E1;
+
+}
+
+.LPBox2 {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    background-color: #E9407A;
+
+}
+
+.assideHead {
+    display: none;
+}
+
+.my_assess1 {
+    display: none;
+}
+
+.menuIcon {
+    display: none;
+}
+
+.compIcon {
+    display: none !important;
+}
+
+.mainAIcons {
+    display: none;
+}
+
+.formSec {
+    /* overflow: scroll; */
+    position: absolute;
+    display: none;
+    bottom: -100%;
+    left: 30%;
+    width: 40%;
+    height: auto;
+    background-color: #f0f1f4;
+    border-radius: 12px;
+    border: 1px solid #DADCE0;
+    transition: all 0.3s linear !important;
+
+}
+
+.formSec.active {
+    bottom: 0;
+    display: block;
+}
+
+.formArea {
+    padding: 20px;
+}
+
+.inputGroup p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.inputGroup {
+    width: 100%;
+}
+.skillsGroup{
+    width: 100%;
+    margin-top: 20px;
+    /* padding: 20px; */
+    border: 1px solid #a7a8a9;
+    border-radius: 8px;
+}
+.inputField {
+    width: 95% ;
+    height: 35px;
+    padding: 0px 15px 0 10px !important;
+    border-radius: 8px;
+    border: 1px solid #a7a8a9;
+}
+.addSkillInput {
+    width: 90% ;
+    height: 35px;
+    padding: 0px 15px 0 10px !important;
+    border-radius: 8px;
+    border: 1px solid #a7a8a9;
+    margin: 10px;
+}
+.addSkill{
+    /* margin: 10px; */
+    /* width: 100% !important; */
+}
+.showSkill{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px;
+}
+.showSkill p{
+    
+    /* text-align: center !important; */
+    
+}
+.showSkillHandle{
+    margin-bottom: 8px;
+    padding: 0px 10px;
+    background-color: #bfd9f7;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-weight: bold;
+    color: #323131;
+    gap: 5px;
+    
+}
+.skilldevider{
+    width: 100%;
+    border: 1px solid #a7a8a9;
+    margin: 5px 0;
+}
+.slillDeleteIcon{
+    padding-bottom: 0 !important;
+}
+.optionInForm {
+    width: 100%;
+    height: 40px;
+    padding: 10px !important;
+    border-radius: 8px;
+    border: 1px solid #a7a8a9;
+}
+
+.formHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid #DADCE0;
+}
+
+.formHeader p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1C4980;
+
+}
+.BTNGroup{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 600px) {
+
+    .assideBar {
+        /* display: none !important; */
+        position: absolute;
+        width: 80%;
+        z-index: 111;
+        top: 0;
+        left: -100%;
+        background-color: #F2F8FE !important;
+        transition: all 0.3s linear !important;
+    }
+
+    .assideBar.showMobileAsside {
+        left: 0;
+
+    }
+
+    .pl-10 {
+        padding-left: 10px;
+    }
+
+    .assideHead {
+        width: 80%;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+    }
+
+    .assideHead p {
+        color: #1C4980;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    .mt-30 {
+        margin-top: 10px;
+    }
+
+    .item {
+        flex-direction: row;
+        justify-content: start;
+        /* padding-left: 10px; */
+
+        width: 80%;
+    }
+
+    .menuCont {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+    .adminCon {
+        order: 2;
+        margin-top: 0 !important;
+    }
+
+
+
+    .mainComp {
+        height: auto;
+        width: 100%;
+        border-radius: 0px !important;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .assessDetails {
+        width: 325px !important;
+    }
+
+    .mainArea {
+        width: 90%;
+        padding: 0px 20px;
+    }
+
+    .details_item1 {
+        width: 48% !important;
+        order: 1;
+    }
+
+    .details_item4 {
+        width: 48% !important;
+        order: 2;
+    }
+
+    .details_item3 {
+        width: 100% !important;
+        order: 4;
+        border-top: 1px solid #DADCE0;
+    }
+
+    .details_item2 {
+        width: 100% !important;
+        order: 3;
+        border-top: 1px solid #DADCE0;
+    }
+
+    .details_value1 {
+        margin-left: 7px;
+    }
+
+    .ml-20 {
+        margin-left: 7px;
+    }
+
+    .cardInnerItem {
+        display: flex;
+        gap: 10px;
+    }
+
+    .cardItem2 {
+        height: auto;
+    }
+
+    .cardItem1 {
+        height: auto;
+    }
+
+    .my_assess {
+        display: none;
+    }
+
+    .dispNone {
+        display: none;
+    }
+
+    .headerItem {
+
+        border-bottom: none;
+    }
+
+    .headerItem1 {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        height: 50px;
+        /* padding: 0px 20px 0px 20px; */
+        /* border-radius: 12px 12px 0px 0px; */
+        /* border: 0px 0px 1px 0px; */
+        gap: 24px;
+        border-bottom: 1px solid #DDE5EA;
+    }
+
+    .my_assess1 {
+        display: block !important;
+        height: 50px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        border-bottom: 3px solid #0073E6;
+        width: 50%;
+    }
+
+    .headertext1 {
+        text-align: center;
+    }
+
+    .borderNone {
+        border-bottom: none;
+    }
+
+    .fontColor {
+        color: #3E6493;
+    }
+
+    .leftItem {
+        display: flex;
+        width: 136px;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+
+    }
+
+    .menuIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 40px;
+        color: #1C4980;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: #F2F8FE;
+        margin-right: 10px;
+
+    }
+
+    .compIcon {
+        display: block !important;
+    }
+
+    .phoneIcon {
+        display: none !important;
+    }
+
+    .mainAIcons {
+        display: flex;
+        gap: 10px;
+        color: #1C4980;
+    }
+
+    .mainMenuSec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .mt-40 {
+        margin-top: 0;
+    }
+
+    .formSec {
+        
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+
+    }
+    .addSkillInput{
+        width: 85% ;
+    }
+
+}
